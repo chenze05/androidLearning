@@ -7,8 +7,31 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="click it"
-        >
+        />
 
-    </Button>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="close"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:text="open second activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button4"
+        android:text="open browser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button5"
+        android:text="dial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
